@@ -1,7 +1,7 @@
 import random
 
 #words = ["UMBRELLA","COMPUTER","TELESCOPE","SMARTPHONE"]
-f= open("words.txt","r")
+f= open("word.txt","r")
 data= f.readline()
 words= data.split()
 word = random.choice(words)
